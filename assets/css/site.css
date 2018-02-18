@@ -1,0 +1,79 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+.header {
+    position: relative;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 38px;
+    text-align: center;
+}
+
+.score {
+    width: 140px;
+    font-size: 28px;
+    float: left;
+}
+
+.board {
+    margin: auto;
+    display: table;
+}
+
+.player {
+    text-align: center;
+    margin: auto;
+    font: bold;
+    width: 285px;
+    height: 30px;
+    float: left;
+    border: 1px dotted blue;
+    font-size: 28px;
+}
+
+.center {
+    margin: 3px auto;
+    text-align: center;
+}
+
+.row {
+    height: 140px;
+    margin: auto;
+    text-align: center;
+}
+
+.card {    
+    margin: 2px 1px auto;
+    border: 1px solid;
+    width: 170px;
+    height: 140px;
+    float: left;
+    align-self: center;
+    border-radius: 7px;    
+}
+
+.card-content {
+    margin: 0% auto;
+    text-align: center;
+    position: relative;
+    top:50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {    
+    height: 15%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;    
+    left: 0;
+    width: 100%;
+    border: 1px dotted violet;    
+    font-size: 38px;
+}
